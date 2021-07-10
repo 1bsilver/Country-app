@@ -26,10 +26,10 @@ const App = () => {
   console.log("render", Data.length, "Data");
 
   return (
-    <div>
+    <div >
       <div>
-        find countries
-        <input value={search} onChange={handleSearch} />
+        <p>find countries :   <input value={search} onChange={handleSearch} /></p>
+        
       </div>
 
       <Filter allCountries={countries2show} search={search} />

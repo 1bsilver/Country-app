@@ -13,14 +13,14 @@ const EachCountry = ({ countries }) => {
     return (
       <div>
         <Detail all={countries} />
-        <button onClick={buttonClick}> {show ? "hide" : "show"} </button>
+        <button  class="location-button"  onClick={buttonClick}> {show ? "hide" : "show"} </button>
       </div>
     );
   } else {
     return (
       <div>
         {countries.name}
-        <button onClick={buttonClick}>{show ? "hide" : "show"}</button>
+        <button class="location-button"   onClick={buttonClick}>{show ? "hide" : "show"}</button>
       </div>
     );
   }

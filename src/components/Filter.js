@@ -24,7 +24,7 @@ const Filter = ({ allCountries, search }) => {
     return (
       <div>
         {allCountries.map((countries) => (
-          <EachCountry countries={countries} key={countries.numericCode}/>
+          <EachCountry class="each" countries={countries} key={countries.numericCode}/>
         ))}
       </div>
     );

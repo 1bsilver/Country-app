@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { LocationOnOutlined } from "@material-ui/icons";
 
 const ACCESS_KEY = process.env.REACT_APP_API_KEY;
 
@@ -27,18 +28,34 @@ const Weather = ({ capital }) => {
   }, []);
 
   return (
-    <div class="weather-gradient" >
+    <div class="weather-side">
+
+    <div class="weather-gradient">
+
+    <div class="date-container" >
       
-      <h3>Weather in {capital}</h3>
-      <p>
-        <b>temperature:</b> {Temp} Celcius
-      </p>
-      <img src={icon} />
-      <p>
-        <b>wind:</b> {wind} mph direction {windDir}
-      </p>
+      <h2 class="date-dayname">Weather</h2>
+     
+      <span class="location">  <LocationOnOutlined fontSize="small"/> {capital}</span>
+      </div>
+
+      <div class="weather-container">
+
+      <img class="weather-icon" src={icon} />
+      <h1 class="weather-temp">
+         {Temp}°C
+      </h1>
       
-    </div>
+
+      
+      <p class="weather-desc">
+        <b>Wind:</b> {wind} mph direction {windDir}
+      </p>
+      </div>
+      
+      
+      </div>
+      </div>
   );
 };
 
