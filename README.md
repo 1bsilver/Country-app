@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live link
+
+[Click here](https://1bsilver.github.io/Country-app/)
+
+#### Note:
+- For the temperature I have used weatherstack api and **would not work** in the live link.
+- For the weather icon I have used material-ui-icons, they would not work too in the live link.
+
 ### `npm start`
 
 Runs the app in the development mode.\
