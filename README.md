@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #### Note:
 - For the temperature I have used weatherstack api and **would not work** in the live link.
-- For the weather icon I have used material-ui-icons, they would not work too in the live link.
+- For the weather icon I have used material-ui-icons, they wouldn't work in the live link too.
 
 ### `npm start`
 
@@ -43,7 +43,3 @@ Example of the data country page when you click the show button.
 4. Languages spoken
 5. Weather in the capital city
 6. Wind speed (in mph) and direction.
-
-#### Note:
-- For the temperature I have used weatherstack api and would not work in the live link.
-- For the weather icon I have used material-ui-icons, they would not work too in the live link.
